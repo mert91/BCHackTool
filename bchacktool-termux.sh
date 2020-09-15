@@ -24,15 +24,15 @@ if [[ $1 =~ ^(-h|--help|-y|--yardım) ]] ; then
     echo -e "Default kullanım için dosyayı ${lightgreen}./bchacktool-lite.sh$tp"
     echo -e "${green}./bchacktool-lite.sh -u$tp Otomatik Güncelleyici"
     echo "----------------------------------------------------------"
-    echo -e $cyan"    Create by           $white":" $red ByChan$tp"
-    echo -e $cyan"    Youtube Kanalim     $white":" $red https://www.youtube.com/ByChan$tp"
-    echo -e $cyan"    Github              $white":" $red https://github.com/ByCh4n$tp"
-    echo -e $cyan"    Instagram           $white":" $red @huseyinaltns$tp"
-    echo -e "$cyan    Discord            $white : $red https://discord.gg/R6vApmn$tp"
+    echo -e $cyan"    Create by           $white":" $red mert tp"
+    echo -e $cyan"    Youtube Kanalim     $white":" $red $tp"
+    echo -e $cyan"    Github              $white":" $red $tp"
+    echo -e $cyan"    Instagram           $white":" $red $tp"
+    echo -e "$cyan    Discord            $white : $red $tp"
     echo -e "$cyan    Tester             $white : $red CruelMSA$tp"
-    echo -e "$cyan    developper         $white : $red https://github.com/lastpingu$tp"
-    exit 0
-elif [[ $1 =~ ^(-u|--update|-g|--güncelle) ]] ; then
+    echo  -e  " $ beyaz     geliştirici için          $ mavi : $ kırmızı  $ tp "
+    çıkış  0
+elif [[ $ 1  = ~ ^ (- u | --güncelle | -g | --güncelle)]]; sonra
     checkupdatepermission=$(ls -l update | awk '{print $1}') 
     if [[ $checkupdatepermission = "-rwxr-x--x" ]] ; then
     bash update
